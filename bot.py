@@ -2,7 +2,7 @@ import telebot
 import requests
 
 # Aapka Token jo image.png mein dikha
-TOKEN = '8615792192:AAEk8e6iQmma iBVT8y592FWR944AacZeSgA'
+TOKEN = '8615792192:AAEk8e6iQmmaiBVT8y592FWR944AacZeSgA'
 bot = telebot.TeleBot(TOKEN)
 
 def luhn_check(card_number):
